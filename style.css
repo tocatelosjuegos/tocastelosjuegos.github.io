@@ -15,6 +15,7 @@ body {
     font-family: var(--font);
     background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
     position: relative;
+    overflow: hidden;
 }
 
 body::before {
